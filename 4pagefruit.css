@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:system-ui;
+}
+
+body{
+    background-color:papayawhip;
+}
+
+/* main title strt */
+.parallax{
+    background-image: url("../background1/abcd.jpg");
+    height: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page-title{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color:wheat;
+    padding: 100px;
+    font-variant: small-caps;
+    font-size: 100px;
+    letter-spacing: 20px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+/* main title end */
+/* navbar start */
+.menu{
+    background:skyblue;
+    
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    margin-left: 60px;
+    
+}
+.a-menu, .a-link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* .search-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    display: inline-block;
+    background: white;
+    width: max-content;
+    margin: 8px;
+    align-items: center; 
+    text-align: center;
+    
+} */
+/* .search-box:hover{
+    box-shadow: 0 0 10px 2px blue;
+    border: 1px solid blue;
+} */
+.search-input{
+    width: 150px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    margin: 15px 0 0 10px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+i{
+    font-size: 20px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+/* navbar end */
+
+
+/* home page start */
+.start{
+    margin: 10px;
+    justify-content: space-between;
+    background-color: rgb(242, 241, 250);
+    padding: 0;
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.categories{
+    width:max-content;
+    margin: 25px;
+    border: 1px solid green;
+    display: inline-block;
+    border-radius: 0 0 40px 40px;
+
+}
+.categories:hover{
+    box-shadow: 8px 4px 6px green
+}
+.item-image{
+    width: 200px;
+    height: 200px;
+    /* border-radius: 0 0 50px 50px; */
+    padding: 10px;
+}
+.image-title{
+    text-align: center;
+    padding:5px;
+    font-weight:bold;
+    color: black;
+}
+a{
+    text-decoration:none;
+}
+/* home page end */
+/* deals start */
+.deal-parallax{
+    background-image: url("../background1/cof.jpg");
+    height: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.deal{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background:linear-gradient(120deg, aqua 20%, #cee397 50%, #16817a 80% );
+    border-radius: 50px;
+}
+.deal:hover{
+    box-shadow: 8px 4px 6px black;
+}
+
+/* deals start */
+.coupon-btn{
+    border: 1px solid black;
+    color:black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.coupon-btn:hover{
+    background:linear-gradient(120deg, aqua 20%, #cee397 50%, #16817a 80% );
+    color: white;
+}
+.button-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 50%;
+    font-weight: bold;
+    padding: 5px;
+}
+.button-btn:hover{
+    background-color: black;
+    color: white;
+}
+.veg-parallax{
+    background-image: url("../wallpaper/fruits.jpeg");
+    height: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.fruit-parallax{
+    background-image: url("../wallpaper/foods.jpeg");
+    height: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.meat-parallax{
+    background-image: url("../wallpaper/fishfry.jpeg");
+    height: max-content;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* footer start */
+ .parallax1{
+        background-image: url("../background1/fruit-02.jpg");
+        height: max-content;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+   
+} 
+.footer{
+      background: rgba(0,0,0,0.5);
+      text-align: center;
+      padding: 20px;
+}
+.quick-links{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+.quick-links ul{
+    padding: 0;
+}
+.quick-links li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+    
+}
+.quick-links li a{
+    color:palegreen;
+    font-weight: bold;
+    text-align: center;
+}
+
+.a-link:hover{
+    color: #fd5e53;
+    box-shadow:0 0 10px 5px palegreen ;
+}
+.quick-links:hover{
+    box-shadow:  0 0 4px 6px  green;
+}
+.copyrights{
+    padding: 10px;
+    background-color:black;
+    color: white;
+    text-align: center;
+}

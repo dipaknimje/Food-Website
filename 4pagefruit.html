@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="4pagefruit.css">
+    <script src="https://kit.fontawesome.com/24d003f785.js" crossorigin="anonymous"></script>
+    <script> function stickymenu(){
+        var sticky=document. getElementById('sticky');
+        if(window.pageYOffset  >220){
+            sticky.classList.add('sticky');
+        }
+        else{
+            sticky.classList.remove('sticky');
+        }
+    }
+ window.onscroll=function(){
+    stickymenu();
+ }
+    </script>
+</head>
+<body>
+    <!-- main  titlle page start -->
+    <div class="parallax">
+        <div class="page-title">Eat Fresh</div>
+    </div>
+    <!-- main  tittle page end -->
+
+    <!-- navbar start -->
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="#"class="a-menu"><li><i class="fa-solid fa-home"></i>Home</li></a> 
+            <a href="#deals"class="a-menu"><li>Deal</li></a> 
+            <a href="#vegitables"class="a-menu"><li>Vegitable</li></a> 
+            <a href="#fruits"class="a-menu"><li>Fruits</li></a> 
+            <a href="#meat"class="a-menu"><li>Non-veg</li></a> 
+            <a href="#Cart"class="a-menu"><li>Cart</li></a> 
+        </ul>
+        <!-- <div class="search-box">
+            <form>
+                <input type="text" placeholder="Search.."name="Search" class="search-input"/>
+                <button type="submit"><i><i class="fa-solid fa-magnifying-glass"></i></i></button>
+            </form>
+        </div> -->
+    </div>
+    <!-- navbar end-->
+
+    <!-- Home page begins -->  
+        <div class="start">
+        <a href="#deals">
+            <div class="categories">
+             <img src="../wallpaper/index.png" class="item-image">
+             <div class="image-title">Deals</div>
+            </div>
+        </a>
+        
+        <a href="#vegitables">
+            <div class="categories">
+             <img src="../wallpaper/greenpepper.jpeg" class="item-image">
+             <div class="image-title">Vegitables</div>
+            </div>
+        </a>
+
+        <a href="#fruits">
+            <div class="categories">
+             <img src="../wallpaper/fruits.jpeg" class="item-image">
+             <div class="image-title">Fruits</div>
+            </div>
+        </a>
+
+        <a href="#meat">
+            <div class="categories">
+             <img src="../wallpaper/chicken.jpeg" class="item-image">
+             <div class="image-title">Non-Veg</div>
+            </div>
+        </a>
+        </div>
+  <!-- Home page end -->
+        
+   <!-- deals start -->
+       <div class="deals-container" id="deals">
+        <div class="deal-parallax">
+            <div class="page-title">DEALS</div>
+        </div>
+        <div class="start">
+        <div class="deal">
+            save 20% on mini-purchase of $149 on Vegitable <br>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+        
+        <div class="deal">
+            save 10% on mini-purchase of $179 on Fruits <br>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+        <div class="deal">
+            save \15% on mini-purchase of $199 on meat/seafood <br>
+            <button class="coupon-btn">Add Coupon</button>
+        </div>
+    </div>
+       </div>
+       <!-- Deal Ends Here -->
+
+       <!-- Veg Begins Here -->
+       <div class="vegitable-coutainer" id="vegitables">
+        <div class="veg-parallax">
+            <div class="page-title">VEGITABLES</div>
+        </div>
+        <div class="start">
+        <a href="#vegitable">
+            <div class="categories">
+             <img src="../wallpaper/greenpepper.jpeg" class="item-image">
+             <div class="image-title"><b>greenpeeper</b><br>
+                price : $1.99/250gram <br>
+                <label>Qty:</label>
+                <select>
+                    <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                </select><br>
+                <button class="button-btn">Buy Now</button>
+            </div>
+            </div>
+        </a>
+        <a href="#vegitable">
+            <div class="categories">
+             <img src="../wallpaper/veg okra.jpeg" class="item-image">
+             <div class="image-title"><b>Veg Okra</b><br>
+                price : $2.99/250gram <br>
+                <label>Qty:</label>
+                <select>
+                    <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                </select><br>
+                <button class="button-btn">Buy Now</button>
+            </div>
+            </div>
+        </a>
+        <a href="#vegitable">
+            <div class="categories">
+             <img src="../wallpaper/onion.jpeg" class="item-image">
+             <div class="image-title"><b>Onion</b><br>
+                price : $3.99/250gram <br>
+                <label>Qty:</label>
+                <select>
+                    <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                </select><br>
+                <button class="button-btn">Buy Now</button>
+            </div>
+            </div>
+        </a>
+        <a href="#vegitable">
+            <div class="categories">
+             <img src="../wallpaper/potato.jpeg" class="item-image">
+             <div class="image-title"><b>Potato</b><br>
+                price : $4.99/250gram <br>
+                <label>Qty:</label>
+                <select>
+                    <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                </select><br>
+                <button class="button-btn">Buy Now</button>
+             </div>
+            </div>
+        </a>
+    </div>
+    <!-- veg begins ends -->
+    
+        <!-- fruts Begins Here -->
+        <div class="fruit-coutainer" id="fruits">
+            <div class="fruit-parallax">
+                <div class="page-title">FRUITS</div>
+            </div>
+            <div class="start">
+            <a href="#fruit">
+                <div class="categories">
+                 <img src="../wallpaper/bananas.jpeg" class="item-image">
+                 <div class="image-title"><b>Bananas</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                        <option>250grams</option>
+                        <option>500grams</option>
+                        <option>750grams</option>
+                        <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+            <a href="#fruit">
+                <div class="categories">
+                 <img src="../wallpaper/apple1.jpeg" class="item-image">
+                 <div class="image-title"><b>Apple</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                        <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+            <a href="#fruit">
+                <div class="categories">
+                 <img src="../wallpaper/mango.jpeg" class="item-image">
+                 <div class="image-title"><b>Mango</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                        <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+            <a href="#fruit">
+                <div class="categories">
+                 <img src="../wallpaper/graps.jpeg" class="item-image">
+                 <div class="image-title"><b>Graps</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                        <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+        </div>
+        </div>
+
+        <!-- fruits ends -->
+
+        <!-- Non-veg start  -->
+            <div class="meat-coutainer" id="meat">
+                <div class="meat-parallax">
+                    <div class="page-title">Non-Veg</div>
+                </div>
+            </div>
+            <div class="start">
+            <a href="#Non-veg">
+                <div class="categories">
+                 <img src="../wallpaper/chicken.jpeg" class="item-image">
+                 <div class="image-title"><b>Chicken</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                    <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+            <a href="#Non-veg">
+                <div class="categories">
+                 <img src="../wallpaper/matton.jpeg" class="item-image">
+                 <div class="image-title"><b>Mattonj</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                        <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+            <a href="#Non-veg">
+                <div class="categories">
+                 <img src="../wallpaper/fishfry.jpeg" class="item-image">
+                 <div class="image-title"><b>Fish-fry</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                        <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+            <a href="#Non-veg">
+                <div class="categories">
+                 <img src="../wallpaper/biryani.jpeg" class="item-image">
+                 <div class="image-title"><b>Biryani</b><br>
+                    price : $2.99/250gram <br>
+                    <label>Qty:</label>
+                    <select>
+                        <option>250grams</option>
+                    <option>500grams</option>
+                    <option>750grams</option>
+                    <option>1000grams</option>
+                    </select><br>
+                    <button class="button-btn">Buy Now</button>
+                </div>
+                </div>
+            </a>
+        </div>
+        <!-- non-veg ends -->
+
+    <!-- footer start here -->
+    <div class="parallax1">
+        <div class="footer">
+            <div class="quick-links">
+                <div>Location</div>
+              <ul>
+                <li><a href="#" class="a-link">Addeess 1</a></li>
+                <li><a href="#" class="a-link">Addeess 2</a></li>
+                <li><a href="#" class="a-link">Addeess 3</a></li>
+              </ul>
+            </div>
+            <div class="quick-links">
+                <div>Careers</div>
+              <ul>
+                <li><a href="#" class="a-link">packing Staff</a></li>
+                <li><a href="#" class="a-link">Delivery Agents</a></li>
+                <li><a href="#" class="a-link">Shelf Fillers</a></li>
+              </ul>
+            </div>
+            <div class="quick-links">
+                <div>Quick Links</div>
+              <ul>
+                <li><a href="#" class="a-link">Contact</a></li>
+                <li><a href="#" class="a-link">FAQ</a></li>
+                <li><a href="#" class="a-link">Help</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <p>Copyright by 2020 @Dipak Nimje</p>
+
+    </div>
+    <!-- footer ends here -->
+</body>
+</html>
